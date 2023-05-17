@@ -8,8 +8,8 @@ import {
   HttpClient,
 } from '@angular/common/http';
 import { catchError, Observable, switchMap, throwError } from 'rxjs';
-import { TokenService } from 'src/services/implementations/token.service';
-import { HttpService } from 'src/services/http.service';
+import { TokenService } from 'src/app/core/services/implementations/token.service';
+import { HttpService } from '../services/http.service';
 @Injectable()
 export class AuthenticationInterceptor implements HttpInterceptor {
   refresh = false;

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { ITokenService } from '../interfaces/token-service.interface';
-import { TOKEN_TYPE } from '../../constants/token.constant';
+import { TOKEN_TYPE } from '../../../shares/constants/token.constant';
 @Injectable({
   providedIn: 'root',
 })

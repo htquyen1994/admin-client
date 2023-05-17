@@ -1,10 +1,10 @@
 import { Observable, from } from 'rxjs';
-import { LoginResultViewModel } from 'src/view-models/login-result.view-model';
-import { LoginViewModel } from 'src/view-models/login.view-model';
+import { LoginResultViewModel } from 'src/app/shares/view-models/login-result.view-model';
+import { LoginViewModel } from 'src/app/shares/view-models/login.view-model';
 import { IAuthenticationService } from '../interfaces/authentication-service.interface';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { environment } from '../../environments/environment'; // sau nay sẽ set config tự động lấy url dựa theo evironment-> truoc mat dung o local
+import { environment } from '../../../../environments/environment'; // sau nay sẽ set config tự động lấy url dựa theo evironment-> truoc mat dung o local
 import { Router } from '@angular/router';
 import { HttpService } from '../http.service';
 
